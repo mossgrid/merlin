@@ -4,6 +4,8 @@ import fs from 'node:fs'
 import { Client, Events, GatewayIntentBits, Collection } from 'discord.js'
 import { ENV } from './config/ENV.js'
 
+export function awakenMerlin() {}
+
 const merlin = new Client({ intents: [GatewayIntentBits.Guilds] })
 
 merlin.once(Events.ClientReady, (_c) => {
