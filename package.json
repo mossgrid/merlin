@@ -6,7 +6,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "bot": "node src/index.js"
+        "bot": "node src/index.js",
+        "deploy": "node src/deploy-commands.js"
     },
     "keywords": [
         "bot",
