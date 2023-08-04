@@ -10,8 +10,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "bot": "node src/index.js",
-        "server": "node src/server.js",
-        "deploy": "npm install && node src/deploy-commands.js"
+        "deploy": "npm install && node src/deploy-commands.js",
+        "server": "node src/server.js"
     },
     "keywords": [
         "bot",
