@@ -9,5 +9,6 @@ app.get('/merlin', (_req, res) => {
 })
 
 app.listen(PORT, () => {
+    awakenMerlin()
     console.log(`Server is up!`)
 })
